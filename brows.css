@@ -67,7 +67,7 @@ div.main {
     display: inline-block;
     font-size: x-large;
     backface-visibility: visible;
-    padding: 1px;
+    /* padding: 1px; */
     top: 0px;
     width: 30%;
     height: 510px;
@@ -218,7 +218,8 @@ div.second {
     }
 
     .footer {
-        padding: 2vh;
+        bottom: -30vh;
+        padding-top: 2vh;
         text-align: center;
     }
 }
