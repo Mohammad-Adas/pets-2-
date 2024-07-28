@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Furry Family Finder
+    </title>  
+    <link rel="icon" type="image/png" href="logoo.png">
+
+
+       <link rel="stylesheet" href="Catcare.css">
+
+    <header class="header-container">
+        <a href="index.html">
+            <img src="logoo.png" alt="Pet Adoption Service Logo" class="logo">
+        </a>
+        <h1 class="site-name">Furry Family Finder</h1>
+        <h2 id="current-time"></h2>
+
+    </header>
+
+
+        
+
+<nav class="navbar" > 
+<ul >
+    <li ><a href="index.html" > Home page </a></li>
+    <li><a href="brows.html"  >  Browse Available Pets </a></li>
+    <li><a href="find.html"> Find a dog/cat </a></li>
+    <li><a href="Dogcare.html" > Dog Care </a></li>
+    <li><a href="Catcare.html" id="current"> Cat Care </a></li>
+    <li><a href="giveaway.html"> Have a pet to give away </a></li>
+    <li><a href="contact.html"> Contact Us </a></li>
+
+
+
+</ul>  
+</nav>
+
+<main>
+    <p style="align-items: center; position: relative; left: 2%; font-size: xx-large; color: #245f9a; font-family: sans-serif ;">
+        Comprehensive Guide to Cat Care: Nutrition, Exercise, Grooming, Healthcare !"
+    </p>
+    <!-- <p id="welocme-message">
+        Your Trusted Service for finding and adopting your new feline or canine friend.
+    </p> -->
+   <div class="main">
+    <dl>
+        <dt>Nutrition & Exercise</dt>
+        <dd>
+            <ul>
+                <li>
+                    <p>Feed your Cat a balanced diet.<br></p>
+                </li>
+                <li>
+                    <p>Provide fresh water daily.<br></p>
+                </li>
+                <li>
+                    <p>Creat opportunties for climbing and exploring.<br></p>
+                </li>
+            </ul>
+        </dd>
+
+        <dt>Grooming</dt>
+        <dd>
+            <ul>
+                <li>
+                    <p>Brush your cat's coat regularly to reduce shedding and prevent matting.<br></p>
+                </li>
+            
+                <li>
+                    <p>Trim your cat's nails.<br></p>
+                </li>
+                <li>
+                    <p>Clean your cat's ears and brush their teeth regularly.<br></p>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+</div>
+<div class="second">
+    <dl>
+        <dt>Healthcare</dt>
+        <dd>
+            <ul>
+                <li>
+                    <p>Schedule regular vet check-ups.<br></p>
+                </li>
+                <li>
+                    <p>Keep vaccinations up to date.<br></p>
+                </li>
+                <li>
+                    <p>Most importantly: Give your cat love and attention daily.<br></p>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+</div>
+
+    <!-- <div id="second"><p>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, consequuntur pariatur eveniet perspiciatis similique et commodi dolor ducimus, repellendus rem laudantium esse quasi ea fugiat, adipisci ab quia? Dolores, ut.
+     </p>
+    </div> -->
+</main>
+<footer class="footer">
+
+</footer>
+<script>
+      let time = document.getElementById("current-time");
+        setInterval(() => {
+            let d = new Date();
+            time.innerHTML = d.toLocaleTimeString();
+        }, 1000);
+</script>
+</body>
+
+</html>
